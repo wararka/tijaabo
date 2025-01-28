@@ -20,7 +20,7 @@ def login():
         except KeyError:
             return "Fehler: Formularfeld fehlt"
     
-    return render_template("login.html")
+    return render_template("nimco.html")
 
 @app.route("/success")
 def success():
